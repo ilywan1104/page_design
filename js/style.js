@@ -5,7 +5,17 @@ $(document).ready(function() {
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['First page', 'Second page', 'Third and last page'],
-    responsiveWidth: 1100
+    responsiveWidth: 768,
+    afterLoad: function(anchorLink, index){
+			if(index == 1){
+        $('.bn-bg-00,.bn-bg-01,.bn-bg-02').addClass('d-block fadeInDown animated');
+        setTimeout(function() {
+          $('.bn-bg-03').addClass('fadeIn animated d-block');
+        },800);
+
+			}
+			//$('#infoMenu').toggleClass('whiteLinks', index ==4);
+		}
   });
 
   //$.fn.fullpage.setAllowScrolling(true);

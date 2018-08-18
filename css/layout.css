@@ -21,6 +21,7 @@ p {
   position: relative;
 }
 #section0 .bn-bg {
+  display: none;
   position: absolute;
 }
 
