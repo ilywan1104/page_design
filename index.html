@@ -2,22 +2,64 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Facebook云控系统</title>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
     <script src="js/style.js" charset="utf-8"></script>
     <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <!-- Navbar content -->
+      <a class="navbar-brand" href="#">Facebook云控系统</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">为什么要用云控 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">功能介绍</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">登录</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">联系客服</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
     <div id="fullpage">
     	<div class="section " id="section0">
-    		<div class="intro">
-    			<h1>Responsive Width</h1>
-    			<p>This example will turn to normal scroll when the window size gets smaller than 1100px width</p>
-    		</div>
-    	</div>
+        <div class="intro">
+      		<div class="container">
+            <div class="row">
+              <div class="col-md">
+                <div class="bn-img">
+                  <img class="bn-bg bn-bg-03 img-fluid fadeInDown animated delay-5s" src="images/bn_bg_03.png">
+                  <img class="bn-bg bn-bg-02 img-fluid fadeInDown animated delay-3s" src="images/bn_bg_02.png">
+                  <img class="bn-bg bn-bg-01 img-fluid fadeInDown animated delay-2s" src="images/bn_bg_01.png">
+                  <img class="bn-bg bn-bg-00 img-fluid fadeInDown animated" src="images/bn_bg.png">
+                </div>
+              </div>
+              <div class="col-md text-center fadeInDown animated">
+                <h2 class="text-blue">Facebook云控系统</h2>
+                <p class="text-white">利用Facebook规模化营销，快速打造流量入口 <br> 客户端+云端</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     	<div class="section" id="section1">
     	    <div class="slide" id="slide1">
     			<div class="intro">

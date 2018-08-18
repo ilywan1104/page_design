@@ -1,0 +1,90 @@
+.navbar-brand {
+  font-size: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.text-blue {
+  color: #00C1DE;
+}
+
+p {
+  font-weight: 100;
+}
+
+#section0 {
+  background-image: url(../images/bg_01.png);
+}
+#section0 .bn-img {
+  position: relative;
+}
+#section0 .bn-bg {
+  position: absolute;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #section0 .bn-img .bn-bg-03 {
+    max-width: 27%;
+    top: -21px;
+    left: 120px;
+  }
+  #section0 .bn-img .bn-bg-02 {
+    top: -90px;
+    left: 0px;
+  }
+  #section0 .bn-img .bn-bg-01 {
+    top: 6px;
+    left: 7px;
+  }
+  #section0 .bn-img .bn-bg-00 {
+    max-width: 140%;
+    top: 52px;
+    left: -50px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #section0 .bn-img .bn-bg-03 {
+    top: -77px;
+    left: 180px;
+  }
+  #section0 .bn-img .bn-bg-02 {
+    top: -128px;
+    left: 17px;
+  }
+  #section0 .bn-img .bn-bg-01 {
+    top: -22px;
+    left: 27px;
+  }
+  #section0 .bn-img .bn-bg-00 {
+    max-width: 140%;
+    top: 40px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #section0 .bn-img .bn-bg-03 {
+    top: -102px;
+    left: 228px;
+  }
+  #section0 .bn-img .bn-bg-02 {
+    top: -150px;
+    left: 40px;
+  }
+  #section0 .bn-img .bn-bg-01 {
+    top: -35px;
+    left: 42px;;
+  }
+  #section0 .bn-img .bn-bg-00 {
+    max-width: 140%;
+    top: 40px;
+  }
+}
