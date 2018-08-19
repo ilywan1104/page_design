@@ -16,15 +16,20 @@ p {
 
 #section0 {
   background-image: url(../images/bg_01.png);
+  background-repeat: no-repeat;
 }
 #section0 .bn-img {
   position: relative;
 }
 #section0 .bn-bg {
-  display: none;
   position: absolute;
 }
-
+#section0 .bn-bg-02 {
+  animation-delay: .5s;
+}
+#section0 .bn-bg-03 {
+  animation-delay: .8s;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
