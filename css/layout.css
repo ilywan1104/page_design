@@ -14,7 +14,10 @@ p {
   font-weight: 100;
 }
 
-#section0 {
+#section0,
+#section2,
+#section4,
+#section5 {
   background-image: url(../images/bg_01.png);
   background-repeat: no-repeat;
 }
@@ -93,4 +96,44 @@ p {
     max-width: 140%;
     top: 40px;
   }
+}
+
+#section1 {
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+#section1 [class*="col-"] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#section2 .content-text {
+  padding-top: 20%;
+}
+#section3 {
+  background-image: url(../images/section3_bg_00.png);
+  background-repeat: no-repeat;
+}
+#section5 .section5-top {
+  width:100%;
+  background-color: rgb(177,192,209);
+  margin-top: 50px;
+}
+#section5 .section5-top [class*="col-"] {
+  padding-top: 15px;
+  border-top: 1px solid rgb(169, 183, 199);
+  border-right: 1px solid rgb(169, 183, 199);
+}
+#section5 .section5-top [class*="col-"]:nth-child(4),
+#section5 .section5-top [class*="col-"]:nth-child(8) {
+  border-right: none;
+}
+#section5 .fp-tableCell {
+  vertical-align: top;
+}
+#section5 .section5-bottom {
+  padding-top: 50px;
+}
+#section5 .section5-bottom .text-center {
+  padding-top: 14%;
 }

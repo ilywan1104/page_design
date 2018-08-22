@@ -11,7 +11,6 @@ $(document).ready(function() {
 			if(index == 1){
         $('.bn-bg-00,.bn-bg-01,.bn-bg-02,.bn-bg-03').addClass('fadeInDown animated');
 			}
-			//$('#infoMenu').toggleClass('whiteLinks', index ==4);
 		},
     onLeave: function(index, nextIndex, direction){
 
