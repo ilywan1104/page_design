@@ -137,3 +137,16 @@ p {
 #section5 .section5-bottom .text-center {
   padding-top: 14%;
 }
+
+.page-footer {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  bottom: 0;
+}
+.page-footer p {
+  margin-bottom: 0;
+  padding: 5px 0;
+  font-size: .8rem;
+  color: #333;
+}
