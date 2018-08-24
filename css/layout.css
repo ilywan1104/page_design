@@ -1,9 +1,16 @@
+.navbar-dark {
+  background-color: rgba(0,0,0,0);
+}
+.op-navbar-dark {
+  background-color: rgba(0,0,0,.5);
+}
 .navbar-brand {
   font-size: 1rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-  font-size: 0.8rem;
-  font-weight: 100;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  /* font-weight: 100; */
 }
 
 .text-blue {
@@ -12,6 +19,9 @@
 
 p {
   font-weight: 100;
+}
+#section0 h1 {
+  font-size: 3.50rem;
 }
 
 #section0,
@@ -81,20 +91,22 @@ p {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #section0 .bn-img .bn-bg-03 {
-    top: -102px;
-    left: 228px;
+    top: -110px;
+    left: 218px;
   }
   #section0 .bn-img .bn-bg-02 {
-    top: -150px;
-    left: 40px;
+    top: -212px;
+    left: 12px;
   }
   #section0 .bn-img .bn-bg-01 {
-    top: -35px;
-    left: 42px;;
+    max-width: 113%;
+    top: -42px;
+    left: 0px;
   }
   #section0 .bn-img .bn-bg-00 {
-    max-width: 140%;
+    max-width: 160%;
     top: 40px;
+    left: -110px;
   }
 }
 
@@ -139,7 +151,7 @@ p {
 }
 
 .page-footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: rgba(0,0,0,.6);
   bottom: 0;
