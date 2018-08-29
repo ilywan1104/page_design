@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>功能介绍</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <script src="js/style.js" charset="utf-8"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <!-- Navbar content -->
+      <!-- <a class="navbar-brand" href="#">Facebook云控系统</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">为什么要用云控 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">功能介绍</a>
+          </li> -->
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">登录</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">联系客服</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <div id="fullpage2">
+      <div id="f-section1" class="section">
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md">
+
+              </div>
+              <div class="col-md text-center">
+                <h1 class="text-blue">多账号管理</h1>
+                <br>
+                <p class="text-white">支持20+账号同时管理，支持全局配置，同时支持单独配置</p>
+                <p class="text-white">同时支持单独配置</p>
+                <h3 class="text-white">客户端统一管理</h3>
+                <a href="index.html" class="btn btn-outline-info">返回首页</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="f-section2" class="section">
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md text-center">
+                <h1 class="text-blue">自动添加小组 & 自动发帖</h1>
+                <br>
+                <p>支持20+账号同时管理，支持全局配置，同时支持单独配置</p>
+                <p>同时支持单独配置</p>
+                <h3>客户端统一管理</h3>
+              </div>
+              <div class="col-md">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="f-section3" class="section">
+        <div class="intro">
+
+        </div>
+      </div>
+      <div id="f-section4" class="section">
+        <div class="intro">
+
+        </div>
+      </div>
+      <div id="f-section5" class="section">
+        <div class="intro">
+
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function() {
+        $('#fullpage2').fullpage({
+          navigation: true,
+          navigationPosition: 'right',
+          responsiveWidth: 768,
+          verticalCentered: true,
+        });
+      });
+    </script>
+  </body>
+</html>

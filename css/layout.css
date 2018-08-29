@@ -20,6 +20,10 @@
 p {
   font-weight: 100;
 }
+
+body {
+  background-color: #333;
+}
 #section0 h1 {
   font-size: 3.50rem;
 }
@@ -161,4 +165,18 @@ p {
   padding: 5px 0;
   font-size: .8rem;
   color: #333;
+}
+
+/* fullpage2 */
+#fullpage2 #f-section1,
+#fullpage2 #f-section3,
+#fullpage2 #f-section5 {
+  background: -webkit-radial-gradient(50% 150%, farthest-corner,#484848,#292929,#000000); /* Safari 5.1 - 6.0 */
+  background: -o-radial-gradient(50% 150%, farthest-corner,#484848,#292929,#000000); /* Opera 11.6 - 12.0 */
+  background: -moz-radial-gradient(50% 150%, farthest-corner,#484848,#292929,#000000); /* Firefox 3.6 - 15 */
+  background: radial-gradient(50% 150%, farthest-corner,#484848,#292929,#000000); /* */
+}
+#fullpage2 #f-section2,
+#fullpage2 #f-section4 {
+  background-color: #f2f2f2;
 }
