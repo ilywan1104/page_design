@@ -22,7 +22,7 @@ p {
 }
 
 body {
-  background-color: #333;
+  background-color: #181818;
 }
 #section0 h1 {
   font-size: 3.50rem;
@@ -164,7 +164,17 @@ body {
   #fullpage2 #f-section5 .img-fluid{
     max-width: 130%;
     top: -220px;
-    left: -80px;
+    left: -50px;
+  }
+  #fullpage2 #f-section6 .img-fluid{
+    max-width: 150%;
+    top: -200px;
+    left: -150px;
+  }
+  #fullpage2 #f-section7 .img-fluid{
+    max-width: 115%;
+    top: -80px;
+    left: -30px;
   }
 }
 
@@ -224,16 +234,28 @@ body {
 /* fullpage2 */
 #fullpage2 #f-section1,
 #fullpage2 #f-section3,
-#fullpage2 #f-section5 {
+#fullpage2 #f-section5,
+#fullpage2 #f-section7 {
   background: -webkit-radial-gradient(50% 100%, farthest-corner,#484848,#292929,#000000); /* Safari 5.1 - 6.0 */
   background: -o-radial-gradient(50% 100%, farthest-corner,#484848,#292929,#000000); /* Opera 11.6 - 12.0 */
   background: -moz-radial-gradient(50% 100%, farthest-corner,#484848,#292929,#000000); /* Firefox 3.6 - 15 */
   background: radial-gradient(50% 100%, farthest-corner,#484848,#292929,#000000); /* */
 }
 #fullpage2 #f-section2,
-#fullpage2 #f-section4 {
+#fullpage2 #f-section4,
+#fullpage2 #f-section6 {
   background-color: #f2f2f2;
+}
+#fullpage2 #f-section8 {
+  /* background-color: #f2f2f2; */
+  background-image: url(../images/f2_08_bg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
 }
 #fullpage2 .section .img-fluid{
   position: absolute;
+}
+#fullpage2 #f-section8 .fp-tableCell {
+  vertical-align: top !important;
 }
