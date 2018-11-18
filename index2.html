@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>功能介绍</title>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
     <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
     <script src="js/style.js" charset="utf-8"></script>
@@ -182,7 +183,8 @@
       </div>
     </div>
     <script type="text/javascript">
-      document.getElementById('f-section1').style.height = window.innerHeight + 'px';
+      console.log(document.getElementById('f-section1').getElementsByClassName('row'));
+      document.getElementById('f-section1').getElementsByClassName('row')[0].style.height = window.innerHeight + 'px';
       $(function() {
         $('#fullpage2').fullpage({
           navigation: true,
